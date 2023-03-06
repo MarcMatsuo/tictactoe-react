@@ -1,0 +1,55 @@
+.screen{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+
+    width: 40%;
+    height: 90%;
+
+    animation: fromTop 1s;
+}
+
+@keyframes fromTop {
+    from{
+        height: 0;
+    }
+}
+
+.screen button{
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+
+    margin-top: 2em;
+
+    animation: invisible 1s;
+}
+
+.screen h1{
+    animation: invisible 1s;
+}
+
+.screen p{
+    font-size: 20px;
+    font-weight: bold;
+    animation: invisible 1s;
+}
+
+@keyframes invisible {
+    0%{
+        background-color: transparent;
+        color:transparent;
+    }
+
+    90%{
+        background-color: transparent;
+        color: transparent;
+    }
+}
+
