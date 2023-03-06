@@ -9,7 +9,7 @@
     background-color: white;
     text-align: center;
 
-    width: 40%;
+    width: 50%;
     height: 90%;
 
     animation: fromTop 1s;
@@ -26,7 +26,7 @@
     background-color: #222;
     color: #fff;
 
-    margin-top: 2em;
+    margin-top: 1em;
 
     animation: invisible 1s;
 }

@@ -2,9 +2,5 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-
-    width: 40%;
-    height: 88%;
     gap: 0.6em;
-
 }

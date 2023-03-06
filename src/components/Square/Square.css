@@ -4,23 +4,37 @@ button {
     padding: 1rem;
     font-size: 4em;
     font-weight: bold;
-    width: 170px;
-    height: 170px;
+    width: 13vw; /* 170 */
+    height: 13vw;
     color: black;
     cursor: pointer;
 
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-   }
+}
    
-   button:active {
+button:active {
     transform: translateY(0.2rem);
-   }
+}
    
-   button:hover:not(:disabled) {
+button:hover:not(:disabled) {
     background: darkslateblue;
-   }
+}
    
-   button:disabled {
+button:disabled {
     cursor: auto;
     color: grey;
-   }
+}
+
+@media screen and (max-width: 770px){
+    button{
+        width: 18vw;
+        height: 18vw;
+    }
+}
+
+@media screen and (max-width: 370px){
+    button{
+        width: 21vw;
+        height: 21vw;
+    }
+}
