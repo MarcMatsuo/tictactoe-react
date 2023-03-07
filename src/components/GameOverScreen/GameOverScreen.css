@@ -53,3 +53,14 @@
     }
 }
 
+@media screen and (max-width: 770px){
+    .screen{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .screen{
+        width: 90%;
+    }
+}

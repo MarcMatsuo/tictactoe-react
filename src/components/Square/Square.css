@@ -27,14 +27,18 @@ button:disabled {
 
 @media screen and (max-width: 770px){
     button{
-        width: 18vw;
-        height: 18vw;
+        width: 20vw;
+        height: 20vw;
+
+        font-size: 3em;
     }
 }
 
 @media screen and (max-width: 370px){
     button{
-        width: 21vw;
-        height: 21vw;
+        width: 25vw;
+        height: 25vw;
+
+        font-size: 2em;
     }
 }
